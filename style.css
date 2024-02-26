@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: black;
+}
+.head{
+    color: #763626;
+}
+.about{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    flex: 100%;
+}
+.block_photo{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.block_photo1{
+    flex: 50%;
+}
+.about_para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 12px;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.photo img{
+    margin-top: 15px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.photo img:hover{
+    transform: scale(1.1);
+}
+.card img{
+    height: 300px;
+    width: 300px;
+}
+.card{
+    margin-top: 20px;
+    padding: 4px;
+    border: #763626 solid;
+    border-radius: 5px;
+    display: flex;
+    height: auto;
+    width: 320px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.company{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact{
+    padding: 3%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    color:#90AFC5;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
